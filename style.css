@@ -1,4 +1,4 @@
-/* Basic Reset & Fonts */
+
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -6,7 +6,6 @@ body {
   background-color: #fdfdfd;
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -35,9 +34,8 @@ body {
   color: #c084fc;
 }
 
-/* Hero */
 .hero {
-  background: url('https://images.unsplash.com/photo-1615873968403-890f5f3e8408?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+  background: #3a3a3a;
   color: white;
   padding: 6em 2em;
   text-align: center;
@@ -52,27 +50,13 @@ body {
   font-size: 1.2em;
 }
 
-/* Intro */
-.intro {
+.intro, .services {
   padding: 3em 2em;
   text-align: center;
 }
 
-.intro h2 {
-  font-size: 2em;
-  margin-bottom: 0.5em;
-}
-
-/* Services */
 .services {
   background-color: #fafafa;
-  padding: 3em 2em;
-  text-align: center;
-}
-
-.services h2 {
-  font-size: 2em;
-  margin-bottom: 1em;
 }
 
 .service-grid {
@@ -91,7 +75,6 @@ body {
   font-weight: 500;
 }
 
-/* Footer */
 .footer {
   background-color: #222;
   color: white;
