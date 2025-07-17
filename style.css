@@ -1,0 +1,106 @@
+/* Basic Reset & Fonts */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #fdfdfd;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  font-size: 1.4em;
+  letter-spacing: 2px;
+}
+
+.navbar nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar nav a:hover {
+  color: #c084fc;
+}
+
+/* Hero */
+.hero {
+  background: url('https://images.unsplash.com/photo-1615873968403-890f5f3e8408?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+  color: white;
+  padding: 6em 2em;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+/* Intro */
+.intro {
+  padding: 3em 2em;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+/* Services */
+.services {
+  background-color: #fafafa;
+  padding: 3em 2em;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  font-weight: 500;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 2em;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.footer a {
+  color: #c084fc;
+  text-decoration: none;
+}
